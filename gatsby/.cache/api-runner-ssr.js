@@ -1,11 +1,11 @@
 var plugins = [{
-      plugin: require('/Users/horse/Desktop/sites/Gatsby/wesbos-30/files/starter-files/gatsby/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      plugin: require('/Users/horse/Desktop/sites/Gatsby/wesbos-30/slick-pizza/gatsby/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/horse/Desktop/sites/Gatsby/wesbos-30/files/starter-files/gatsby/node_modules/gatsby-source-sanity/gatsby-ssr'),
+      plugin: require('/Users/horse/Desktop/sites/Gatsby/wesbos-30/slick-pizza/gatsby/node_modules/gatsby-source-sanity/gatsby-ssr'),
       options: {"plugins":[],"projectId":"5295iqvm","dataset":"production","watchMode":true,"token":"skM6GBvDHHHpfm20FynKcJYekq2DzK47VrtLs2Vr3UQEGwLSPdTFwXc0oTgbHj7jugxBz0u4zOp4IilKVvraE8zCBhhelqSJuoegmZ82omdDm7QoTKKPRtMVGbjVOnrFP6IPIATWRBzUe1N3iB5CTMC8wXcEYvm4v7v3p7iZ1eWemxNh7IkD"},
     },{
-      plugin: require('/Users/horse/Desktop/sites/Gatsby/wesbos-30/files/starter-files/gatsby/gatsby-ssr'),
+      plugin: require('/Users/horse/Desktop/sites/Gatsby/wesbos-30/slick-pizza/gatsby/gatsby-ssr'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
