@@ -1,1 +1,1 @@
-{"componentChunkName":"component---src-pages-pizzas-js","path":"/topping/Garlic","result":{"data":{"pizzas":{"nodes":[]}},"pageContext":{"topping":"Garlic"}},"staticQueryHashes":["2929599075"]}
+{"componentChunkName":"component---src-pages-pizzas-js","path":"/topping/Garlic","result":{"data":{"pizzas":{"nodes":[]}},"pageContext":{"topping":"Garlic","toppingRegex":"/Garlic/i"}},"staticQueryHashes":["2929599075","735375095"]}

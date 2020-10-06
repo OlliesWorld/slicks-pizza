@@ -1,4 +1,7 @@
 var plugins = [{
+      plugin: require('/Users/horse/Desktop/sites/Gatsby/wesbos-30/slick-pizza/gatsby/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
       plugin: require('/Users/horse/Desktop/sites/Gatsby/wesbos-30/slick-pizza/gatsby/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[]},
     },{

@@ -1,1 +1,1 @@
-{"data":{"pizzas":{"nodes":[]}},"pageContext":{"topping":"Garlic"}}
+{"data":{"pizzas":{"nodes":[]}},"pageContext":{"topping":"Garlic","toppingRegex":"/Garlic/i"}}
