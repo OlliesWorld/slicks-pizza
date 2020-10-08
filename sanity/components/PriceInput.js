@@ -1,14 +1,15 @@
 import React from 'react';
 import PatchEvent, { set, unset } from 'part:@sanity/form-builder/patch-event';
 
-function creatPatchFrom(value) {
+function createPatchFrom(value) {
   return PatchEvent.from(value === '' ? unset() : set(Number(value)));
 }
 
-const formatMoney = Intl.NumberFormat('en', {
+const formatMoney = Intl.NumberFormat('en-CA', {
   style: 'currency',
-  currency: 'USD',
+  currency: 'CAD',
 }).format;
+
 export default function PriceInput({ type, value, onChange, inputComponent }) {
   return (
     <div>
@@ -19,13 +20,13 @@ export default function PriceInput({ type, value, onChange, inputComponent }) {
       <input
         type={type.name}
         value={value}
-        onChange={(event) => onChange(creatPatchFrom(event.target.value))}
-        href={inputComponent}
+        onChange={(event) => onChange(createPatchFrom(event.target.value))}
+        ref={inputComponent}
       />
     </div>
   );
 }
 
 PriceInput.focus = function () {
-  this.inputElement.focus();
+  this._inputElement.focus();
 };
